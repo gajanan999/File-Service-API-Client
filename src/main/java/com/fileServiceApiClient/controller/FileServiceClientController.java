@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-public class FileServiceController {
+public class FileServiceClientController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(FileServiceController.class);
+	private static final Logger logger = LoggerFactory.getLogger(FileServiceClientController.class);
 	
 	@Value("${BASE_URL}")
 	private String BASE_URL;
